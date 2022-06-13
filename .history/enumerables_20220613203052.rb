@@ -67,9 +67,5 @@ end
 # Buffalo Wings (American) | Heat Level: 🌶🌶🌶
 # HINT: Try to use methods you've already written to solve this!
 def print_spiciest_foods(spicy_foods)
-  spicy_foods.select {|food| food[:heat_level]> 5}.each{|food| puts "#{food[:name]} (#{food[:cuisine]}) | Heat Level: #{"🌶" * food[:heat_level]}" }
-end
 
-def average_heat_level(spicy_foods)
-    spicy_foods.map {|food| food[:heat_level]}.sum / spicy_foods.length
 end
