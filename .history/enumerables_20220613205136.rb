@@ -72,7 +72,7 @@ end
 
 def average_heat_level(spicy_foods)
   new_arr=spicy_foods.map {|food| food[:heat_level]}
-  new_arr.sum / spicy_foods.length
+  .sum / spicy_foods.length
 end
 
 def average_heat_level(spicy_foods)
